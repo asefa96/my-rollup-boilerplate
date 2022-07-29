@@ -13,7 +13,6 @@ const extensions = [".js", ".jsx", ".ts", ".tsx"];
 export default [
   {
     input: "src/index.ts",
-
     output: [
       {
         file: packageJson.main,
